@@ -1,10 +1,10 @@
 {
   "main": {
-    "name":"Tim Baker",
+    "name":"GLUG WINTER OF CODE",
     "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "description":" We are now launching a whole month of code! Get registered to contribute.",
+    "image":"logo-square.png",
+    "bio":"Open to any free software enthusiasts. This community has been always described as place for learning and sharing, a place to evolve and grow together.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
