@@ -5,8 +5,13 @@ class Card extends React.Component{
     render(){
         return(
             
-              <div class="row">
-      
+              
+                  <div className="row banner">
+                  <div className="banner-text">
+                  <h1 className="responsive-headline" style={{textAlignVertical: "center",textAlign: "center",}}>REGISTER</h1>
+                  </div>
+                  
+                        <br></br>
       <div class="example-2 card">
         <div class="wrapper">
           <div class="header">
@@ -21,7 +26,7 @@ class Card extends React.Component{
               
              
               
-              <a href="#" class="button">Register</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSelgT2ntgsHyZg-UkIys2r38SJwJlT63oBeBznCzDl1UnbkZw/viewform?usp=sf_link" class="button">Register</a>
             </div>
           </div>
         </div>
@@ -41,7 +46,8 @@ class Card extends React.Component{
               
              
               
-              <a href="#" class="button">Register</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScsD1HoShQei19Hli0DzZUGH3ZxMvsA1h_a9ukHn53jEX4EHw/viewform?usp=sf_link
+" class="button">Register</a>
             </div>
           </div>
         </div>
