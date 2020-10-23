@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { BsFillStarFill } from 'react-icons/bs';
 import './Timeline.css'
 // Timeline vertical
 class Timeline extends Component {
