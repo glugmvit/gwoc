@@ -27,11 +27,7 @@
         "url":"https://twitter.com/glugmvit",
         "className":"fa fa-twitter"
       },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
+      
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/company/glugmvit/",
@@ -46,11 +42,6 @@
         "name":"github",
         "url":"https://github.com/glugmvit",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },

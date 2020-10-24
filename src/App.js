@@ -47,8 +47,8 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <ImageCarousel data={this.state.resumeData.main}/>
-        <Card/>
-        <Timeline/>
+        <Card data={this.state.resumeData.register}/>
+        <Timeline data={this.state.resumeData.main}/>
        
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
