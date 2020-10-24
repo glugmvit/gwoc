@@ -8,7 +8,7 @@ This is the official website for GWCOC
 ### About
 ### Register
 ### Schedule
-## FAQ
+### FAQ
 
 Users can fork the repo and start contributing
 
