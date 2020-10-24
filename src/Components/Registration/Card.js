@@ -4,7 +4,10 @@ import './Card.css'
 class Card extends React.Component{
     render(){
         return(
-            
+                <div>
+
+                  <section id="register">
+
               
                   <div className="row banner">
                   <div className="banner-text">
@@ -51,7 +54,10 @@ class Card extends React.Component{
             </div>
           </div>
         </div>
-      </div>  
+      </div> 
+       
+            </div>
+            </section>
             </div>
         );
     }

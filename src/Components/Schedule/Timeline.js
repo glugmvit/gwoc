@@ -5,6 +5,8 @@ import './Timeline.css'
 class Timeline extends Component {
   render() {
     return (
+      <div>
+      <section id="schedule">
       <div className="row banner">
                   <div className="banner-text">
                   <h1 className="responsive-headline" style={{textAlignVertical: "center",textAlign: "center",}}>SCHEDULE</h1>
@@ -106,6 +108,9 @@ class Timeline extends Component {
 		
 	</section> 
   </div>
+                  </section>
+                
+            </div>
     );
   }
 }

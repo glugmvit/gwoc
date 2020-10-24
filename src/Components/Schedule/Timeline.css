@@ -5,6 +5,11 @@ html, body {
     box-sizing: border-box;
   }
   
+  #schedule {
+    padding-top: 50px;
+  }
+
+
   .cd-container {
     width: 90%;
     max-width: 1080px;
