@@ -15,7 +15,7 @@ class Footer extends Component {
            </ul> */}
 
            <ul className="copyright">
-              <li>&copy; Copyright 2020 <a href="https://blog.glugmvit.com/" target="_blank" >GLUG MVIT</a> </li>
+              <li>&copy; Copyright 2020 <a href="https://blog.glugmvit.com/" target="_blank" rel="noopener noreferrer">GLUG MVIT</a> </li>
               
               
            </ul>
