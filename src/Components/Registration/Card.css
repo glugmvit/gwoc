@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #ffff;
+  background-color:#ffff ;
   /* background-image: linear-gradient(to right, #034378, #2d4e68); */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,9 +36,8 @@ h1 {
   padding: 0;
   list-style-type: none;
 }
-.card .menu-content::before,
-.card .menu-content::after {
-  content: "";
+.card .menu-content::before, .card .menu-content::after {
+  content: '';
   display: table;
 }
 .card .menu-content::after {
@@ -56,9 +55,9 @@ h1 {
   top: 0;
   font-size: 10px;
   font-weight: 700;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 .card .wrapper {
   background-color: #fff;
@@ -69,14 +68,14 @@ h1 {
 }
 .card .wrapper:hover .data {
   -webkit-transform: translateY(0);
-  transform: translateY(0);
+          transform: translateY(0);
 }
 .card .data {
   position: absolute;
   bottom: 0;
   width: 100%;
   -webkit-transform: translateY(calc(70px + 1em));
-  transform: translateY(calc(70px + 1em));
+          transform: translateY(calc(70px + 1em));
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
@@ -97,12 +96,12 @@ h1 {
   height: 70px;
   margin: 0;
 }
-.card input[type="checkbox"] {
+.card input[type='checkbox'] {
   display: none;
 }
-.card input[type="checkbox"]:checked + .menu-content {
+.card input[type='checkbox']:checked + .menu-content {
   -webkit-transform: translateY(-60px);
-  transform: translateY(-60px);
+          transform: translateY(-60px);
 }
 
 /* .example-1 .wrapper {
@@ -211,16 +210,15 @@ h1 {
 
 .example-2 .wrapper:hover .menu-content span {
   -webkit-transform: translate(-50%, -10px);
-  transform: translate(-50%, -10px);
+          transform: translate(-50%, -10px);
   opacity: 1;
 }
 .example-2 .header {
   color: #fff;
   padding: 1em;
 }
-.example-2 .header::before,
-.example-2 .header::after {
-  content: "";
+.example-2 .header::before, .example-2 .header::after {
+  content: '';
   display: table;
 }
 .example-2 .header::after {
@@ -245,7 +243,7 @@ h1 {
 .example-2 .data {
   color: #fff;
   -webkit-transform: translateY(calc(70px + 4em));
-  transform: translateY(calc(70px + 4em));
+          transform: translateY(calc(70px + 4em));
 }
 .example-2 .title a {
   color: #fff;
@@ -262,19 +260,19 @@ h1 {
   font-weight: 700;
 }
 .example-2 .button::after {
-  content: "\2192";
+  content: '\2192';
   opacity: 0;
   position: absolute;
   right: 0;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
+          transform: translate(0, -50%);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .example-2 .button:hover::after {
   -webkit-transform: translate(5px, -50%);
-  transform: translate(5px, -50%);
+          transform: translate(5px, -50%);
   opacity: 1;
 }
 
@@ -286,16 +284,15 @@ h1 {
 
 .example-1 .wrapper:hover .menu-content span {
   -webkit-transform: translate(-50%, -10px);
-  transform: translate(-50%, -10px);
+          transform: translate(-50%, -10px);
   opacity: 1;
 }
 .example-1 .header {
   color: #fff;
   padding: 1em;
 }
-.example-1 .header::before,
-.example-1 .header::after {
-  content: "";
+.example-1 .header::before, .example-1 .header::after {
+  content: '';
   display: table;
 }
 .example-1 .header::after {
@@ -320,7 +317,7 @@ h1 {
 .example-1 .data {
   color: #fff;
   -webkit-transform: translateY(calc(70px + 4em));
-  transform: translateY(calc(70px + 4em));
+          transform: translateY(calc(70px + 4em));
 }
 .example-1 .title a {
   color: #fff;
@@ -337,18 +334,18 @@ h1 {
   font-weight: 700;
 }
 .example-1 .button::after {
-  content: "\2192";
+  content: '\2192';
   opacity: 0;
   position: absolute;
   right: 0;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
+          transform: translate(0, -50%);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .example-1 .button:hover::after {
   -webkit-transform: translate(5px, -50%);
-  transform: translate(5px, -50%);
+          transform: translate(5px, -50%);
   opacity: 1;
 }
