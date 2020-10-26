@@ -5,6 +5,8 @@ import './Timeline.css';
 class Timeline extends Component {
   render() {
     return (
+      <div>
+      <section id="schedule">
       <div className="row banner">
         <div className="banner-text">
           <h1
@@ -80,6 +82,14 @@ class Timeline extends Component {
           <div class="cd-timeline-block">
             <div class="cd-timeline-img cd-location"></div>
 
+
+		
+	</section> 
+  </div>
+                  </section>
+                
+            </div>
+
             <div class="cd-timeline-content">
               <h3 style={{ color: 'white' }}>Event 5</h3>
               <div class="timeline-content-info">
@@ -93,6 +103,7 @@ class Timeline extends Component {
           </div>
         </section>
       </div>
+
     );
   }
 }

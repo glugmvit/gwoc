@@ -189,7 +189,7 @@ ul#nav li.current a { color: #FFC300; }
 #about {
    background:#ffff;
    padding-top: 96px;
-   padding-bottom: 66px;
+   /*padding-bottom: 66px;*/
    overflow: hidden;
 }
 
@@ -939,8 +939,8 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #0e0d0d; font-weight: 800;}
+footer a:hover, footer a:focus { color: #525252; }
 
 /* copyright */
 footer .copyright {
