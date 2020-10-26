@@ -5,7 +5,9 @@ import './Timeline.css'
 class Timeline extends Component {
   render() {
     return (
-      <div className="row banner">
+      <div className="row banner" id="schedule"
+      style={{ paddingTop: '80px'}}
+      >
                   <div className="banner-text">
                   <h1 className="responsive-headline" style={{textAlignVertical: "center",textAlign: "center",}}>SCHEDULE</h1>
                   </div>
