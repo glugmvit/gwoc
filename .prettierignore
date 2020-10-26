@@ -1,0 +1,5 @@
+#Ignore build
+build
+
+#Ignore all the CSS for now
+*.css
