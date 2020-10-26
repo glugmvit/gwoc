@@ -13,12 +13,12 @@ class Timeline extends Component {
                         <br></br>
 
 <section id="cd-timeline" class="cd-container">
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-			</div>
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+      </div>
 
-			<div class="cd-timeline-content">
-				<h3 style={{ color: 'white' }}>Event 1</h3>
+      <div class="cd-timeline-content">
+        <h3 style={{ color: 'white' }}>Event 1</h3>
         <div class="timeline-content-info">
           
           <span class="timeline-content-info-date">
@@ -26,16 +26,16 @@ class Timeline extends Component {
             Nov 2020 - Present
           </span>
         </div>
-				<h2>desc</h2>
+        <h2>desc</h2>
         
-			</div> 
-		</div> 
+      </div> 
+    </div> 
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-			</div> 
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-movie">
+      </div> 
 
-			<div class="cd-timeline-content">
+      <div class="cd-timeline-content">
                 
             <h3 style={{ color: 'white' }}>Event 2</h3>
                 <div class="timeline-content-info">
@@ -45,16 +45,16 @@ class Timeline extends Component {
             Nov 2020 - Present
           </span>
         </div>
-				<h2>desc</h2>
-				
-			</div> 
-		</div> 
+        <h2>desc</h2>
+        
+      </div> 
+    </div> 
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-			</div>
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+      </div>
 
-			<div class="cd-timeline-content">
+      <div class="cd-timeline-content">
             <h3 style={{ color: 'white' }}>Event 3</h3>
             <div class="timeline-content-info">
           
@@ -63,15 +63,15 @@ class Timeline extends Component {
             Nov 2020 - Present
           </span>
         </div>
-				<h2>desc</h2>
-				
-			</div> 
-		</div> 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-			</div> 
+        <h2>desc</h2>
+        
+      </div> 
+    </div> 
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+      </div> 
 
-			<div class="cd-timeline-content">
+      <div class="cd-timeline-content">
             <h3 style={{ color: 'white' }}>Event 4</h3>
                 <div class="timeline-content-info">
           
@@ -80,16 +80,16 @@ class Timeline extends Component {
             Nov 2020 - Present
           </span>
         </div>
-				<h2>desc</h2>
-				
-			</div> 
-		</div> 
+        <h2>desc</h2>
+        
+      </div> 
+    </div> 
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-			</div> 
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+      </div> 
 
-			<div class="cd-timeline-content">
+      <div class="cd-timeline-content">
             <h3 style={{ color: 'white' }}>Event 5</h3>
             <div class="timeline-content-info">
           
@@ -98,13 +98,13 @@ class Timeline extends Component {
             Nov 2020 - Present
           </span>
         </div>
-				<h2>desc</h2>
-				
-			</div> 
-		</div> 
+        <h2>desc</h2>
+        
+      </div> 
+    </div> 
 
-		
-	</section> 
+    
+  </section> 
   </div>
     );
   }
