@@ -6,6 +6,12 @@
 
 /* ================================================================== */
 
+/* all screenwidths
+--------------------------------------------------------------------- */
+
+header #nav-btn {
+   display: none;
+}
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
@@ -161,7 +167,7 @@
 	   display: block;
       padding: 30px 20px 48px 20px;
       background: #1f2024;
-      margin: 0 30px;
+      margin: 0 20px;
       clear: both;
    }
 
@@ -210,8 +216,11 @@
    header .social li { margin: 0 10px; }
 
     /* scrolldown link */
-   header .scrolldown { display: none; }
+   /* header .scrolldown { display: none; } */
 
+   header #nav-btn {
+      display: unset;
+   }
 
    /* About Section
    -------------------------------------------------------------------- */
@@ -369,6 +378,10 @@
    /* social links */
    footer .social-links { font-size: 20px; }
    footer .social-links li { margin-left: 14px; }   
+
+   header #nav-btn {
+      display: unset;
+   }
 
 }
 
