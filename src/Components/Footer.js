@@ -10,6 +10,10 @@ class Footer extends Component {
               {networks}
            </ul> */}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a465cd2cf018ed91c93e08d3d366374744005a89
             <ul className="copyright">
               <li>
                 &copy; Copyright 2020{' '}
@@ -22,6 +26,10 @@ class Footer extends Component {
                 </a>{' '}
               </li>
             </ul>
+<<<<<<< HEAD
+=======
+
+>>>>>>> a465cd2cf018ed91c93e08d3d366374744005a89
           </div>
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">
