@@ -1,7 +1,6 @@
 import React from 'react';
 import './Card.css';
 
-
 // class Card extends React.Component{
 //     render(){
 //         return(
@@ -9,26 +8,26 @@ import './Card.css';
 
 //                   <section id="register">
 
-              
 //                   <div className="row banner">
 //                   <div className="banner-text">
 //                   <h1 className="responsive-headline" style={{textAlignVertical: "center",textAlign: "center",}}>REGISTER</h1>
 //                   </div>
-                  
+
 //                         <br></br>
 //       <div class="example-2 card">
 //         <div class="wrapper">
 //           <div class="header">
-            
+
 //             <ul class="menu-content">
-              
 
 class Card extends React.Component {
   render() {
     return (
+
       <div className="row banner" id="register"
       style={{ paddingTop: '60px'}}
       >
+
         <div className="banner-text">
           <h1
             className="responsive-headline"
@@ -37,7 +36,6 @@ class Card extends React.Component {
             REGISTER
           </h1>
         </div>
-
 
         <br></br>
         <div class="example-2 card">
@@ -75,19 +73,16 @@ class Card extends React.Component {
             </div>
           </div>
         </div>
-
-      </div> 
-       
-            // </div>
-            // </section>
-            // </div>
-        );
-    }
+      </div>
 
       // </div>
-   " );"
+      // </section>
+      // </div>
+    );
   }
 
+  // </div>
+  ' );';
+}
 
 export default Card;
-
