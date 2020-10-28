@@ -23,11 +23,7 @@ import './Card.css';
 class Card extends React.Component {
   render() {
     return (
-
-      <div className="row banner" id="register"
-      style={{ paddingTop: '60px'}}
-      >
-
+      <div className="row banner" id="register" style={{ paddingTop: '60px' }}>
         <div className="banner-text">
           <h1
             className="responsive-headline"
