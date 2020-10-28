@@ -8,41 +8,41 @@ class Header extends Component {
     };
   }
 
-  componentDidMount = ()=>{
+  componentDidMount = () => {
     // For detecting click outside a html tag
     document.addEventListener('mousedown', this.handleClickOutside, false);
-  }
+  };
 
-  componentWillUnmount = ()=>{
-    document.removeEventListener('mousedown', this.handleClickOutside, false)
-  }
+  componentWillUnmount = () => {
+    document.removeEventListener('mousedown', this.handleClickOutside, false);
+  };
 
-  handleClickOutside = (e) =>{
-    if(this.node && this.node.contains(e.target)) {
+  handleClickOutside = (e) => {
+    if (this.node && this.node.contains(e.target)) {
       // if nav bar is open and pointer click is inside nav tag, then do nothing
       return;
     }
 
     // if nav bar is open and pointer click is outside nav tag, then close
     this.onClose();
-  }
+  };
 
   // Open the nav bar menu
-  onOpen = ()=> {
-    const element = document.getElementById('nav-btn')
-    if(element && !element.classList.contains('open')) {
-      console.log("open")
+  onOpen = () => {
+    const element = document.getElementById('nav-btn');
+    if (element && !element.classList.contains('open')) {
+      console.log('open');
       element.classList.add('open');
       this.setState({ navMenuOpen: true });
       window.location.href = '#nav-wrap';
     }
-  }
+  };
 
   // Close the nav bar menu
   onClose = () => {
     const element = document.getElementById('nav-btn');
     if (element && element.classList.contains('open')) {
-      console.log("CLICK")
+      console.log('CLICK');
       element.classList.remove('open');
       this.setState({ navMenuOpen: false });
       window.location.href = '#nav';
@@ -69,8 +69,12 @@ class Header extends Component {
     const { navMenuOpen } = this.state;
     return (
       <header id="home">
-        <nav id="nav-wrap" ref={node=> this.node = node}>
-          <button id="nav-btn" className="nav-btn" onClick={ navMenuOpen ? this.onClose : this.onOpen}>
+        <nav id="nav-wrap" ref={(node) => (this.node = node)}>
+          <button
+            id="nav-btn"
+            className="nav-btn"
+            onClick={navMenuOpen ? this.onClose : this.onOpen}
+          >
             {!navMenuOpen ? (
               <i
                 style={{ fontSize: '1.2em' }}
@@ -98,12 +102,20 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#register" onClick={this.onClose}>
+              <a
+                className="smoothscroll"
+                href="#register"
+                onClick={this.onClose}
+              >
                 Register
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#schedule" onClick={this.onClose}>
+              <a
+                className="smoothscroll"
+                href="#schedule"
+                onClick={this.onClose}
+              >
                 Schedule
               </a>
             </li>
