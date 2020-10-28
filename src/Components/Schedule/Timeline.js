@@ -5,7 +5,6 @@ import './Timeline.css';
 class Timeline extends Component {
   render() {
     return (
-
       <div className="row banner" id="schedule" style={{ paddingTop: '80px' }}>
         <div className="banner-text">
           <h1
@@ -15,7 +14,6 @@ class Timeline extends Component {
             SCHEDULE
           </h1>
         </div>
-
 
         <br></br>
 
