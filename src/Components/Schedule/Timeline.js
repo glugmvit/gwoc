@@ -17,15 +17,15 @@ class Timeline extends Component {
 
         <br></br>
 
-        <section id="cd-timeline" class="cd-container">
-          <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
+        <section id="cd-timeline" className="cd-container">
+          <div className="cd-timeline-block">
+            <div className="cd-timeline-img cd-picture"></div>
 
-            <div class="cd-timeline-content">
+            <div className="cd-timeline-content">
               <h3 style={{ color: 'white' }}>Event 1</h3>
-              <div class="timeline-content-info">
-                <span class="timeline-content-info-date">
-                  <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              <div className="timeline-content-info">
+                <span className="timeline-content-info-date">
+                  <i className="fa fa-calendar-o" aria-hidden="true"></i>
                   Nov 2020 - Present
                 </span>
               </div>
@@ -33,14 +33,14 @@ class Timeline extends Component {
             </div>
           </div>
 
-          <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-movie"></div>
+          <div className="cd-timeline-block">
+            <div className="cd-timeline-img cd-movie"></div>
 
-            <div class="cd-timeline-content">
+            <div className="cd-timeline-content">
               <h3 style={{ color: 'white' }}>Event 2</h3>
-              <div class="timeline-content-info">
-                <span class="timeline-content-info-date">
-                  <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              <div className="timeline-content-info">
+                <span className="timeline-content-info-date">
+                  <i className="fa fa-calendar-o" aria-hidden="true"></i>
                   Nov 2020 - Present
                 </span>
               </div>
@@ -48,28 +48,28 @@ class Timeline extends Component {
             </div>
           </div>
 
-          <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
+          <div className="cd-timeline-block">
+            <div className="cd-timeline-img cd-picture"></div>
 
-            <div class="cd-timeline-content">
+            <div className="cd-timeline-content">
               <h3 style={{ color: 'white' }}>Event 3</h3>
-              <div class="timeline-content-info">
-                <span class="timeline-content-info-date">
-                  <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              <div className="timeline-content-info">
+                <span className="timeline-content-info-date">
+                  <i className="fa fa-calendar-o" aria-hidden="true"></i>
                   Nov 2020 - Present
                 </span>
               </div>
               <h2>desc</h2>
             </div>
           </div>
-          <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-location"></div>
+          <div className="cd-timeline-block">
+            <div className="cd-timeline-img cd-location"></div>
 
-            <div class="cd-timeline-content">
+            <div className="cd-timeline-content">
               <h3 style={{ color: 'white' }}>Event 4</h3>
-              <div class="timeline-content-info">
-                <span class="timeline-content-info-date">
-                  <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              <div className="timeline-content-info">
+                <span className="timeline-content-info-date">
+                  <i className="fa fa-calendar-o" aria-hidden="true"></i>
                   Nov 2020 - Present
                 </span>
               </div>
@@ -77,14 +77,14 @@ class Timeline extends Component {
             </div>
           </div>
 
-          <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-location"></div>
+          <div className="cd-timeline-block">
+            <div className="cd-timeline-img cd-location"></div>
 
-            <div class="cd-timeline-content">
+            <div className="cd-timeline-content">
               <h3 style={{ color: 'white' }}>Event 5</h3>
-              <div class="timeline-content-info">
-                <span class="timeline-content-info-date">
-                  <i class="fa fa-calendar-o" aria-hidden="true"></i>
+              <div className="timeline-content-info">
+                <span className="timeline-content-info-date">
+                  <i className="fa fa-calendar-o" aria-hidden="true"></i>
                   Nov 2020 - Present
                 </span>
               </div>
