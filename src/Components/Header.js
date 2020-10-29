@@ -5,7 +5,7 @@ class Header extends Component {
     super();
     this.state = {
       navMenuOpen: false,
-      scrollPos: '',
+      scrollPos: 'home',
     };
   }
 
@@ -22,7 +22,7 @@ class Header extends Component {
 
   scrollPosition = () => {
     const currPos = window.pageYOffset + 100;
-    if (this.offSetPos('home') >= currPos) {
+    if (this.offSetPos('about') >= currPos) {
       this.setState({ scrollPos: 'home' });
     } else if (
       this.offSetPos('about') < currPos &&
