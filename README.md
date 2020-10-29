@@ -1,7 +1,7 @@
 This is the official website for GWOC
 
 [![build](https://github.com/glugmvit/gwoc/workflows/Build/badge.svg)](https://github.com/glugmvit/gwoc/actions)
-
+[![website](https://img.shields.io/website-up-down-green-red/https/gwoc.glugmvit.com/.svg)](https://gwoc.glugmvit.com/)
 
 ## Content:
 
