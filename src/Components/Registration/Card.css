@@ -4,12 +4,12 @@
 }
 
 body {
-  background-color:#ffff ;
+  background-color: #ffff;
   /* background-image: linear-gradient(to right, #034378, #2d4e68); */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
 }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   padding-bottom: 30px;
 }
@@ -37,7 +37,8 @@ h1 {
   padding: 0;
   list-style-type: none;
 }
-.card .menu-content::before, .card .menu-content::after {
+.card .menu-content::before,
+.card .menu-content::after {
   content: '';
   display: table;
 }
@@ -58,7 +59,7 @@ h1 {
   font-weight: 700;
   font-family: 'Open Sans';
   -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 .card .wrapper {
   background-color: #fff;
@@ -69,14 +70,14 @@ h1 {
 }
 .card .wrapper:hover .data {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 .card .data {
   position: absolute;
   bottom: 0;
   width: 100%;
   -webkit-transform: translateY(calc(70px + 1em));
-          transform: translateY(calc(70px + 1em));
+  transform: translateY(calc(70px + 1em));
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
@@ -102,7 +103,7 @@ h1 {
 }
 .card input[type='checkbox']:checked + .menu-content {
   -webkit-transform: translateY(-60px);
-          transform: translateY(-60px);
+  transform: translateY(-60px);
 }
 
 /* .example-1 .wrapper {
@@ -206,19 +207,20 @@ h1 {
 } */
 
 .example-2 .wrapper {
-  background: url("https://i.ibb.co/vPrMYRm/1.png") center/cover no-repeat;
+  background: url('https://i.ibb.co/vPrMYRm/1.png') center/cover no-repeat;
 }
 
 .example-2 .wrapper:hover .menu-content span {
   -webkit-transform: translate(-50%, -10px);
-          transform: translate(-50%, -10px);
+  transform: translate(-50%, -10px);
   opacity: 1;
 }
 .example-2 .header {
   color: #fff;
   padding: 1em;
 }
-.example-2 .header::before, .example-2 .header::after {
+.example-2 .header::before,
+.example-2 .header::after {
   content: '';
   display: table;
 }
@@ -244,7 +246,7 @@ h1 {
 .example-2 .data {
   color: #fff;
   -webkit-transform: translateY(calc(70px + 4em));
-          transform: translateY(calc(70px + 4em));
+  transform: translateY(calc(70px + 4em));
 }
 .example-2 .title a {
   color: #fff;
@@ -267,32 +269,33 @@ h1 {
   right: 0;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .example-2 .button:hover::after {
   -webkit-transform: translate(5px, -50%);
-          transform: translate(5px, -50%);
+  transform: translate(5px, -50%);
   opacity: 1;
 }
 
 /* card 2 */
 
 .example-1 .wrapper {
-  background: url("https://i.ibb.co/yPTHQB8/2.png") center/cover no-repeat;
+  background: url('https://i.ibb.co/yPTHQB8/2.png') center/cover no-repeat;
 }
 
 .example-1 .wrapper:hover .menu-content span {
   -webkit-transform: translate(-50%, -10px);
-          transform: translate(-50%, -10px);
+  transform: translate(-50%, -10px);
   opacity: 1;
 }
 .example-1 .header {
   color: #fff;
   padding: 1em;
 }
-.example-1 .header::before, .example-1 .header::after {
+.example-1 .header::before,
+.example-1 .header::after {
   content: '';
   display: table;
 }
@@ -318,7 +321,7 @@ h1 {
 .example-1 .data {
   color: #fff;
   -webkit-transform: translateY(calc(70px + 4em));
-          transform: translateY(calc(70px + 4em));
+  transform: translateY(calc(70px + 4em));
 }
 .example-1 .title a {
   color: #fff;
@@ -341,31 +344,28 @@ h1 {
   right: 0;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .example-1 .button:hover::after {
   -webkit-transform: translate(5px, -50%);
-          transform: translate(5px, -50%);
+  transform: translate(5px, -50%);
   opacity: 1;
 }
 
-
 @media only screen and (max-width: 767px) {
-    .card {
-      min-width: 100%;
-      padding: 0px 30px 30px;
-    }
-    .card .wrapper {
-      min-height: 430px;
-    }
+  .card {
+    min-width: 100%;
+    padding: 0px 30px 30px;
+  }
+  .card .wrapper {
+    min-height: 430px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    
-    .card .wrapper {
-      
-      min-height: 360px;
-    }
+  .card .wrapper {
+    min-height: 360px;
+  }
 }
