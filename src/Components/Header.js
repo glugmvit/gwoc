@@ -5,16 +5,52 @@ class Header extends Component {
     super();
     this.state = {
       navMenuOpen: false,
+      scrollPos: 'home',
     };
   }
 
   componentDidMount = () => {
     // For detecting click outside a html tag
     document.addEventListener('mousedown', this.handleClickOutside, false);
+    window.addEventListener('scroll', this.scrollPosition);
   };
 
   componentWillUnmount = () => {
     document.removeEventListener('mousedown', this.handleClickOutside, false);
+    window.removeEventListener('scroll', this.scrollPosition);
+  };
+
+  scrollPosition = () => {
+    const currPos = window.pageYOffset + 200;
+    if (this.offSetPos('about') >= currPos) {
+      this.setState({ scrollPos: 'home' });
+    } else if (
+      this.offSetPos('about') < currPos &&
+      this.offSetPos('register') > currPos
+    ) {
+      this.setState({ scrollPos: 'about' });
+    } else if (
+      this.offSetPos('register') <= currPos &&
+      this.offSetPos('schedule') > currPos
+    ) {
+      this.setState({ scrollPos: 'register' });
+    } else if (
+      this.offSetPos('schedule') <= currPos &&
+      this.offSetPos('faq') > currPos
+    ) {
+      this.setState({ scrollPos: 'schedule' });
+    } else if (
+      this.offSetPos('faq') <= currPos &&
+      this.offSetPos('contact') > currPos
+    ) {
+      this.setState({ scrollPos: 'faq' });
+    } else if (this.offSetPos('contact') <= currPos) {
+      this.setState({ scrollPos: 'contact' });
+    }
+  };
+
+  offSetPos = (id) => {
+    return document.getElementById(id).offsetTop;
   };
 
   handleClickOutside = (e) => {
@@ -66,7 +102,8 @@ class Header extends Component {
       });
     }
 
-    const { navMenuOpen } = this.state;
+    const { navMenuOpen, scrollPos } = this.state;
+    const highlightColor = { color: '#FFC300' };
     return (
       <header id="home">
         <nav id="nav-wrap" ref={(node) => (this.node = node)}>
@@ -92,17 +129,28 @@ class Header extends Component {
 
           <ul id="nav" className="nav">
             <li className="current">
-              <a className="smoothscroll" href="#home" onClick={this.onClose}>
+              <a
+                style={scrollPos === 'home' ? highlightColor : {}}
+                className="smoothscroll"
+                href="#home"
+                onClick={this.onClose}
+              >
                 Home
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#about" onClick={this.onClose}>
+              <a
+                style={scrollPos === 'about' ? highlightColor : {}}
+                className="smoothscroll"
+                href="#about"
+                onClick={this.onClose}
+              >
                 About
               </a>
             </li>
             <li>
               <a
+                style={scrollPos === 'register' ? highlightColor : {}}
                 className="smoothscroll"
                 href="#register"
                 onClick={this.onClose}
@@ -112,6 +160,7 @@ class Header extends Component {
             </li>
             <li>
               <a
+                style={scrollPos === 'schedule' ? highlightColor : {}}
                 className="smoothscroll"
                 href="#schedule"
                 onClick={this.onClose}
@@ -121,8 +170,23 @@ class Header extends Component {
             </li>
             {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
             <li>
-              <a className="smoothscroll" href="#faq" onClick={this.onClose}>
+              <a
+                style={scrollPos === 'faq' ? highlightColor : {}}
+                className="smoothscroll"
+                href="#faq"
+                onClick={this.onClose}
+              >
                 FAQ
+              </a>
+            </li>
+            <li>
+              <a
+                style={scrollPos === 'contact' ? highlightColor : {}}
+                className="smoothscroll"
+                href="#contact"
+                onClick={this.onClose}
+              >
+                Contact
               </a>
             </li>
           </ul>

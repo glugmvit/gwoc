@@ -28,6 +28,10 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+.responsive-headline {
+   margin: 10vh 0 5vh 0;
+}
+
 header {
    position: relative;
    height: 800px;
@@ -194,7 +198,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #FFC300; }
+/* ul#nav li.current a { color: #FFC300; } */
 
 
 /* ------------------------------------------------------------------ */

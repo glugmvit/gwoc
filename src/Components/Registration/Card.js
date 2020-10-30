@@ -34,16 +34,16 @@ class Card extends React.Component {
         </div>
 
         <br></br>
-        <div class="example-2 card">
-          <div class="wrapper">
-            <div class="header">
-              <ul class="menu-content"></ul>
+        <div className="example-2 card">
+          <div className="wrapper">
+            <div className="header">
+              <ul className="menu-content"></ul>
             </div>
-            <div class="data">
-              <div class="content">
+            <div className="data">
+              <div className="content">
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSelgT2ntgsHyZg-UkIys2r38SJwJlT63oBeBznCzDl1UnbkZw/viewform?usp=sf_link"
-                  class="button"
+                  className="button"
                 >
                   Register
                 </a>
@@ -52,16 +52,16 @@ class Card extends React.Component {
           </div>
         </div>
 
-        <div class="example-1 card">
-          <div class="wrapper">
-            <div class="header">
-              <ul class="menu-content"></ul>
+        <div className="example-1 card">
+          <div className="wrapper">
+            <div className="header">
+              <ul className="menu-content"></ul>
             </div>
-            <div class="data">
-              <div class="content">
+            <div className="data">
+              <div className="content">
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLScsD1HoShQei19Hli0DzZUGH3ZxMvsA1h_a9ukHn53jEX4EHw/viewform?usp=sf_link"
-                  class="button"
+                  className="button"
                 >
                   Register
                 </a>
