@@ -28,6 +28,10 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+.responsive-headline {
+   margin: 10vh 0 5vh 0;
+}
+
 header {
    position: relative;
    height: 800px;

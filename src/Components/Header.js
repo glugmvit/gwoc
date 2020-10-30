@@ -21,7 +21,7 @@ class Header extends Component {
   };
 
   scrollPosition = () => {
-    const currPos = window.pageYOffset + 100;
+    const currPos = window.pageYOffset + 200;
     if (this.offSetPos('about') >= currPos) {
       this.setState({ scrollPos: 'home' });
     } else if (
@@ -36,14 +36,15 @@ class Header extends Component {
       this.setState({ scrollPos: 'register' });
     } else if (
       this.offSetPos('schedule') <= currPos &&
-      this.offSetPos('contact') > currPos
+      this.offSetPos('faq') > currPos
     ) {
       this.setState({ scrollPos: 'schedule' });
-    }
-    // else if(this.offSetPos('faq') < currPos && this.offSetPos('contact') >= currPos) {
-    //   this.setState({ scrollPos : "schedule" });
-    // }
-    else if (this.offSetPos('contact') <= currPos) {
+    } else if (
+      this.offSetPos('faq') <= currPos &&
+      this.offSetPos('contact') > currPos
+    ) {
+      this.setState({ scrollPos: 'faq' });
+    } else if (this.offSetPos('contact') <= currPos) {
       this.setState({ scrollPos: 'contact' });
     }
   };

@@ -1,0 +1,81 @@
+.accordionWrapper {
+  width: 100%;
+  margin: 10vh 0;
+}
+
+.accordion {
+  margin: auto;
+  width: 95%;
+  max-width: 900px;
+}
+.panel {
+  background-color: #fff;
+}
+.panel__label {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 25px 60px 25px 25px;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: inherit;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+  cursor: pointer;
+  color: black;
+}
+.panel__label:hover,
+.panel__label:active {
+  background: #fff;
+  color: black;
+}
+.panel__label:focus {
+  outline: none;
+}
+.panel__label:after,
+.panel__label:before {
+  content: '';
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  width: 22px;
+  height: 2px;
+  margin-top: 0;
+  background-color: #372717;
+}
+.panel__label:before {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: -webkit-transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1),
+    -webkit-transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.panel[aria-expanded='true'] .panel__content {
+  opacity: 1;
+}
+
+.panel[aria-expanded='true'] .panel__label:before {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.panel__inner {
+  overflow: hidden;
+  will-change: height;
+  -webkit-transition: height 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: height 0.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.panel__content {
+  margin: 5px 25px 25px;
+  font-size: 14px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s linear 0.18s;
+  transition: opacity 0.3s linear 0.18s;
+}
+.panel:not(:last-child) {
+  margin-bottom: 3px;
+}

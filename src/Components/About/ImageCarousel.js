@@ -9,6 +9,12 @@ class ImageCarousel extends React.Component {
     return (
       <div>
         <section id="about">
+          <h1
+            className="responsive-headline"
+            style={{ textAlignVertical: 'center', textAlign: 'center' }}
+          >
+            ABOUT US
+          </h1>
           <center>
             <Carousel
               autoPlay

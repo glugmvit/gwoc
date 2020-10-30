@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Timeline from './Components/Schedule/Timeline';
 import ImageCarousel from './Components/About/ImageCarousel';
 import Card from './Components/Registration/Card';
+import Faq from './Components/FAQ/Faq';
 
 class App extends Component {
   constructor(props) {
@@ -47,6 +48,7 @@ class App extends Component {
         <ImageCarousel data={this.state.resumeData.main} />
         <Card data={this.state.resumeData.register} />
         <Timeline data={this.state.resumeData.main} />
+        <Faq />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
