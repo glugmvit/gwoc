@@ -27,6 +27,8 @@
   </a>
 </p>
 
+![gwocss](https://user-images.githubusercontent.com/65019686/97843716-cadb0b80-1d0f-11eb-8ebf-6b8af26f8895.PNG)
+
 
 <h1 align="center">
   Contributing to GWOC Website
@@ -52,12 +54,11 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
     ```
     Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload as you make edits.
 
-3. If you've added code that should be tested, add tests.
-    
-4. If you've changed APIs, update the documentation.
-5. Ensure the test suite passes.
-6. Make sure your code lints.
-7. Make sure your code is formatted. Use
+3. Ensure the test suite passes.
+    ```
+    npm test
+    ```
+4. Make sure your code lints. To format the code, use
     ```
     npm run prettier
     ```
@@ -66,4 +67,4 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
     npm run prettier:fix
     ```
 
-8. Issue that pull request!
+5. Issue that pull request!
