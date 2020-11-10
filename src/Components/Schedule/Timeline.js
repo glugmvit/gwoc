@@ -61,7 +61,7 @@ class Timeline extends Component {
                   18th - 20th Nov
                 </span>
               </div>
-              <h5 style={{ color: '#fff' }}>Sending Accepting mails</h5>
+              <h5 style={{ color: '#fff' }}>Sending Acceptance mails</h5>
             </div>
           </div>
           <div className="cd-timeline-block">
