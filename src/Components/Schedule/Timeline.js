@@ -22,14 +22,14 @@ class Timeline extends Component {
             <div className="cd-timeline-img cd-picture"></div>
 
             <div className="cd-timeline-content">
-              <h3 style={{ color: 'white' }}>Event 1</h3>
+              <h3 style={{ color: 'white' }}>REGISTRATION</h3>
               <div className="timeline-content-info">
                 <span className="timeline-content-info-date">
                   <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                  Nov 2020 - Present
+                  10th - 16th Nov
                 </span>
               </div>
-              <h2>desc</h2>
+              <h5 style={{ color: '#fff' }}>Registration period begins</h5>
             </div>
           </div>
 
@@ -37,14 +37,16 @@ class Timeline extends Component {
             <div className="cd-timeline-img cd-movie"></div>
 
             <div className="cd-timeline-content">
-              <h3 style={{ color: 'white' }}>Event 2</h3>
+              <h3 style={{ color: 'white' }}>PROJECTS ANNOUNCEMENT</h3>
               <div className="timeline-content-info">
                 <span className="timeline-content-info-date">
                   <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                  Nov 2020 - Present
+                  16th - 18th Nov
                 </span>
               </div>
-              <h2>desc</h2>
+              <h5 style={{ color: '#fff' }}>
+                Projects announcement and mentor allotment
+              </h5>
             </div>
           </div>
 
@@ -52,28 +54,28 @@ class Timeline extends Component {
             <div className="cd-timeline-img cd-picture"></div>
 
             <div className="cd-timeline-content">
-              <h3 style={{ color: 'white' }}>Event 3</h3>
+              <h3 style={{ color: 'white' }}>ACCEPTANCE MAIL</h3>
               <div className="timeline-content-info">
                 <span className="timeline-content-info-date">
                   <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                  Nov 2020 - Present
+                  18th - 20th Nov
                 </span>
               </div>
-              <h2>desc</h2>
+              <h5 style={{ color: '#fff' }}>Sending Accepting mails</h5>
             </div>
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img cd-location"></div>
 
             <div className="cd-timeline-content">
-              <h3 style={{ color: 'white' }}>Event 4</h3>
+              <h3 style={{ color: 'white' }}>COMMUNITY BONDING</h3>
               <div className="timeline-content-info">
                 <span className="timeline-content-info-date">
                   <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                  Nov 2020 - Present
+                  20th - 25th Nov
                 </span>
               </div>
-              <h2>desc</h2>
+              <h5 style={{ color: '#fff' }}>Community bonding period</h5>
             </div>
           </div>
 
@@ -81,14 +83,29 @@ class Timeline extends Component {
             <div className="cd-timeline-img cd-location"></div>
 
             <div className="cd-timeline-content">
-              <h3 style={{ color: 'white' }}>Event 5</h3>
+              <h3 style={{ color: 'white' }}>CODING PERIOD</h3>
               <div className="timeline-content-info">
                 <span className="timeline-content-info-date">
                   <i className="fa fa-calendar-o" aria-hidden="true"></i>
-                  Nov 2020 - Present
+                  25th Nov-20th Dec
                 </span>
               </div>
-              <h2>desc</h2>
+              <h5 style={{ color: '#fff' }}>Code Code Code...</h5>
+            </div>
+          </div>
+
+          <div className="cd-timeline-block">
+            <div className="cd-timeline-img cd-location"></div>
+
+            <div className="cd-timeline-content">
+              <h3 style={{ color: 'white' }}>RESULTS</h3>
+              <div className="timeline-content-info">
+                <span className="timeline-content-info-date">
+                  <i className="fa fa-calendar-o" aria-hidden="true"></i>
+                  30th Dec
+                </span>
+              </div>
+              <h5 style={{ color: '#fff' }}>Final Results</h5>
             </div>
           </div>
         </section>
